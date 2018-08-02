@@ -6,8 +6,8 @@ function keyPressed() {
     } else if (keyCode === RIGHT_ARROW) {
         game.player.c += 1;
     } else if (keyCode === DOWN_ARROW) {
-        game.player.c += 1;
+        game.player.r += 1;
     } else if (keyCode === UP_ARROW) {
-        game.player.c += 1;
+        game.player.r += 1;
     }
 }
