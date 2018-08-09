@@ -6,13 +6,14 @@ function setup() {
 function draw() {
     background(51);
 
-    //drawScore();
     //drawTime();
-
+    
     drawBoard();
-    drawPlayer(game.player);
-    drawPlayer(game.enemy);
+    drawPlayer(game.player1);
+    drawPlayer(game.player2);
+    if(frameCount % 30 == 0 ) moveEnemy();
+    drawScore();
+    drawParticles();
   
-  
-    //moveEnemy();
+ 
 }
